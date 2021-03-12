@@ -475,21 +475,21 @@ ul.hide {
   line-height: 0;
 }
 video#myVideo {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   width: 100%;
 }
 .title-content {
   position: absolute;
   top: 40%;
   left: calc(50% - 160px);
-  max-width: 320px;
+  width: 320px;
   text-align: center;
   line-height: initial;
   z-index: 1000;
 }
 .title-content h1 {
   font-size: 1.5em;
-  background-color: rgba(0, 0, 0, 0.65);
+  /*background-color: rgba(0, 0, 0, 0.65);*/
   border-radius: 50px;
   display: inline-block;
   padding: 10px 30px;
@@ -512,7 +512,7 @@ video#myVideo {
     left: 0;
     width: 100%;
     /*z-index-1;*/
-    margin-top: 75px;
+    /*margin-top: 75px;*/
   }
   .video-wrapper {
     position: relative;
@@ -531,13 +531,13 @@ video#myVideo {
       position: absolute;
       top: 45%;
       left: calc(50% - 200px);
-      max-width: 400px;
+      width: 400px;
       text-align: center;
   }
 }
 @media screen and (min-width: 1024px) {
   .title-content {
-    max-width: 500px;
+    width: 500px;
     left: calc(50% - 250px);
   }
   .title-content h1 {
