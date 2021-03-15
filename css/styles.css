@@ -706,7 +706,7 @@ img.block-image {
 }
 @media screen and (min-width: 1024px){
   .card {
-    width: calc(25% - 30px);
+    /*width: calc(25% - 30px);*/
   }
 }
 .team-list {
