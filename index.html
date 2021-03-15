@@ -2,7 +2,13 @@
 <html>
 <head>
 <!-- favicon -->
-
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 <!-- general -->
 <meta charset="utf-8">
 <title>MAGIC</title>
@@ -76,48 +82,57 @@
     <!-- intro section -->
     <section>
       <div class="section-content">
-        <div class="col-2 flex" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-offset="100"><img src="images/infographic-institutions.png" class="infographic" alt="Infographic showing different modalities around HBHL logo"></div>
+        <div class="col-2 flex" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-offset="100"><img src="images/infographic-institutions.png" class="infographic" alt="Infographic showing the institutions of MAGIC"></div>
         <div class="col-2" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-offset="100" data-aos-delƒimgay="250">
-          <!-- <h2>An Open Science infrastructure for reproducible, collaborative and multidisciplinary research</h2> -->
+          <h2>About MAGIC</h2>
           <p>Datasets containing both multi-modal brain imaging and genome-wide genotyping or sequencing information across the genome (genotyping or sequencing) are becoming available and increasing in size. These data provide the ground-breaking opportunity to characterize genomic variants and molecular mechanisms contributing to brain development, function, and aging. However, this endeavor requires bridging expertise across two disciplines, and the massive dimensionality leads to conceptual and computational challenges. The Montreal Neuroimaging-Genomics network focuses on fostering collaborations between the 2 fields, developing and implementing solutions to such challenges.</p>
         </div>
       </div>
     </section>
     <div class="clear-all"></div>
 
-    <!-- technical section: This will be moved to the about page'-->
-    <!-- <section class="dk-blue-bg">
-      <div class="section-content">
-        <div class="col-2 flex" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-offset="100"><img src="images/infographic-how.png" class="infographic auto-width" alt="Infographic with HBHL logo in a question mark"></div>
-        <div class="col-2" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-offset="100" data-aos-delay="250">
-          <h2>How will NeuroHub work?</h2>
-          <p>NeuroHub will be an engine to combine data and gain new insights on the brain and overall health of populations in Canada and around the world.</p>
-          <p>The platform will bring together established data and computational infrastructure with new technologies to provide a web-based platform to support scientific research in neuroinformatics, genomics, social sciences, biology, among others.</p>
-          <p>It will offer researchers a repository of standardized, machine-readable data from a range of sources along with the latest machine learning, neuroinformatics, modeling and statistical tools and techniques, which will facilitate combining analysis with novel, at-scale methodologies.</p>
-          <p>NeuroHub will be among the few neuroscience platforms that will include not only traditional datasets from neuroimaging and genomics, but also cohort and longitudinal data from behavioural, population and social science studies, and soft data extracted from existing publications (e.g. extracting intervention effectiveness or behavioural influences from published studies).</p>
-          <p>Data collected through established platforms at McGill University, (e.g. LORIS, PopHR, CBRAIN, etc…), will be automatically added to the repository, while preserving appropriate levels of data security and privacy. Metadata querying and management technologies such as Datalad will make the data discoverable, accessible and reusable.</p>
-          <p>By linking diverse datasets together with metadata, the platform will federate several known data sources with newly collected and curated sources from McGill research to create one of the richest, searchable data repositories in the world.</p>
+    <section  class="extra-top team-section grey-bg">
+      <div class="section-content flex card-holder flex-center ">
+        <h1 class="full-width text-center">MAGIC Members (Alphabetical)</h1>
+        <div class="card" data-aos="fade-in">
+          <img src="images/team/bellec-pierre.jpg" class="card-image" alt="Image of Pierre">
+          <div class="card-name">Pierre Bellec</div>
+          <div class="card-jobtitle"></div><br>
+          <a href="">Read More</a>
         </div>
-      </div>
-    </section>
-    <div class="clear-all"></div> -->
+        <div class="card" data-aos="fade-in">
+          <img src="images/team/bernhardt-boris.jpg" class="card-image" alt="Image of Boris">
+          <div class="card-name">Boris Bernhardt</div>
+          <div class="card-jobtitle">McConnell Brain Imaging Centre, Montreal Neurological Institute McGill University</div><br>
+          <a href="">Read More</a>
+        </div>
+        <div class="card" data-aos="fade-in">
+          <img src="images/team/dumas-guillaume.jpg" class="card-image" alt="Image of Dumas">
+          <div class="card-name">Dumas Guillaume</div>
+          <div class="card-jobtitle">IVADO Professor of Computational Psychiatry, Faculty of Medicine, University of Montreal + if needed: Principal Investigator, Precision Psychiatry & Social Physiology laboratory, CHU Sainte-Justine Research Center - FRQS J1 Researcher in Artificial intelligence and Digital Health, Mila - Quebec Artificial Intelligence Institute</div><br>
+          <a href="">Read More</a>
+        </div>
 
-    <!-- tools section: Will be moved to the tools page -->
-<!--     <section class="dk-blue-bg">
-      <div class="section-content">
-        <div class="col-2 flex" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-offset="100"><img src="images/infographic-tools.png" class="infographic invert" alt="Infographic of gears"></div>
-        <div class="col-2" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-offset="100" data-aos-delay="250">
-          <h2>What tools and services will NeuroHub offer?</h2>
-          <p>NeuroHub will provide a toolbox equipped with the latest analytical capabilities, compatible with various modalities.</p>
-          <p>Standardized data and metadata will allow these tools able to readily access data in the NeuroHub.  Users will be able to interact in several ways depending on their research, their computational needs, and the particular idiom in which they choose to work.</p>
-          <p>Whether it be interactive computing through technologies like Jupyter Notebooks, statistical analysis through tools like R, or well-defined execution pipelines launched on high-performance computing through CBRAIN, users will have full access to the data in a common platform that will allow them to conduct research at whatever scale is necessary to answer their questions.</p>
-          <p>The knowledge captured through work in NeuroHub will extend far beyond the study that is being immediately conducted so as to be completely reproducible and allow future research to build upon it.</p>
-          <p>All data and analytics in the platform will be enabled to track the exact provenance and procedural aspects of the research so that the work can be easily shared and reviewed in new interactive modalities of publication such as the emerging open publication platform Aperture, be immediately contributed back as derived data for future analysis, reproduced and validated through automated techniques, and be shared with others in a completely reproducible manner. In this way, NeuroHub will continue to grow its knowledge base rather than findings being lost in a sea of inaccessible, non-computable manuscripts and improve the quality and reliability of the science being produced.</p>
-          <p><a href="docs/NeuroHub-vision-document.pdf">View more information on the NeuroHub vision</a>.</p>
+        <div class="card" data-aos="fade-in">
+          <img src="images/team/evans-alan.jpg" class="card-image" alt="Image of Alan">
+          <div class="card-name">Alan Evans</div>
+          <div class="card-jobtitle">James McGill Professor of Neurology & Neurosurgery, Psychiatry Montreal Neurological Institute, McGill University</div><br>
+          <a href="">Read More</a>
+        </div>
+        <div class="card" data-aos="fade-in">
+          <img src="images/team/jacquemont-sebastien.jpg" class="card-image" alt="Image of Sebasien">
+          <div class="card-name">Sébastien Jacquemont</div>
+          <div class="card-jobtitle">Associate professor, Canada Research Chair, Jeanne and Jean-Louis Levesque Chair, Department of Pediatrics, CHU Sainte-Justine Research Center</div><br>
+          <a href="">Read More</a>
+        </div>
+        <div class="card" data-aos="fade-in">
+          <img src="images/team/poline-jb.jpg" class="card-image" alt="Image of JB">
+          <div class="card-name">Jean-Baptiste Poline</div>
+          <div class="card-jobtitle">McConnell Brain Imaging Centre, Montreal Neurological Institute, The Neuro, Faculty of Medicine and Health Sciences, McGill University</div><br>
+          <a href="">Read More</a>
         </div>
       </div>
     </section>
-    <div class="clear-all"></div> -->
    <!-- footer -->
 
     <footer>  

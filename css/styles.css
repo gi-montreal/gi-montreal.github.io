@@ -660,10 +660,10 @@ footer .section-content {
   overflow: hidden;
 }
 .card img {
-  border-radius: 200px;
+  border-radius: 400px;
   margin-bottom: 20px;
   border: 3px solid #b9b9b9;
-  width: 90%;
+  /*width: 90%;*/
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -690,12 +690,13 @@ img.block-image {
 }
 @media screen and (min-width: 400px) {
   .card {
-    width: calc(50% - 30px);
+    /*width: calc(50% - 30px);*/
   }
 }
 @media screen and (min-width: 640px){
   .card {
     padding: 30px;
+    width: calc(50% - 30px);
   }
 }
 @media screen and (min-width: 800px){
@@ -704,9 +705,9 @@ img.block-image {
   }
 }
 @media screen and (min-width: 1024px){
-  .card {
+/*  .card {
     width: calc(25% - 30px);
-  }
+  }*/
 }
 .team-list {
   /*list-style: inside;*/
