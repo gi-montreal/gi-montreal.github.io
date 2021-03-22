@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<!-- general -->
+<meta charset="utf-8">
+<title>MAGIC | Guillaume Dumas</title>
+<meta name="viewport" content="width=device-width">
+meta name="description" content="MAGIC - An Open Science and Artificial Intelligence Initiative.">
+<meta name="keywords" content="MAGIC, Research, Big Data, Science, Medicine, Datalad">
+<meta name="author" content="Derek Lo @ 3design-dlo.com">
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="css/nav-styles.css" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/drop-down.js"></script>
+</head>
+<body>
+<div id="main-wrapper">
+  <!-- navigation -->
+
+  <nav class="site-nav">
+    <div class="nav-container">
+      <a href="index.html"><img src="images/logo-magic.png" class="logo bottom active" alt="MAGIC logo"></a>
+      <!-- <div id="showmenu">Menu</div> -->
+      <!-- <ul id="menu" class="nav-list hide">
+        <li class="nav-item"><a href="#!">About</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="about.html">About Neurohub</a>
+            </li>
+            <li>
+              <a href="vision.html">Our Vision</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="tools.html">Tools</a></li>
+        <li class="nav-item"><a href="team.html">Team</a></li>
+        <li class="nav-item"><a href="events.html">Events</a></li>
+        <li class="nav-item"><a href="https://github.com/neurohub/neurohub_documentation/wiki">Documentation</a></li>
+        <li class="nav-item"><a href="portal.html" class="new">Portal</a></li>
+      </ul> -->
+    </div>
+  </nav>
+  <div class="content-wrapper">
+  <!-- article -->
+    <section class="extra-top">
+      <div class="section-content">
+        <div class="col-2 flex" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-offset="100"><img src="images/team/dumas-guillaume.jpg" class="infographic" alt=""></div>
+        <div class="col-2" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-offset="100" data-aos-delay="250">
+          <h2>Guillaume Dumas</h2>
+          <p>Guillaume Dumas is an Assistant Professor of Computational Psychiatry in the Faculty of Medicine at the Université de Montréal, and the Principle Investigator of the Precision Psychiatry and Social Physiology laboratory at the CHU Sainte-Justine Research Center. He holds the IVADO professorship for “AI in Mental Health”, and the FRQS J1 in “AI and Digital Health”. He held a previous appointment as a permanent researcher in Neuroscience and Computational Biology at the Institut Pasteur (Paris, France). Before that, he was a postdoctoral fellow at the Center for Complex Systems and Brain Sciences (FAU, USA). He holds an engineering degree in advanced engineering and computer science (Ecole Centrale Paris), two MSc degrees (theoretical physics, Paris-Saclay University; cognitive science, ENS/EHESS/Paris 5), and a PhD in cognitive neuroscience (Sorbonne University).</p>
+        </div>
+      </div>
+    </section>
+    <div class="clear-all"></div>
+
+   <!-- footer -->
+
+    <footer>  
+      <div class="section-content flex flex-align-center">
+        <div class="logos">
+          <a href="https://www.mcgill.ca/hbhl/"><img src="images/logo-hbhl.png" alt="HBHL logo"></a>
+          <a href="http://ludmercentre.ca"><img src="images/logo-ludmer.png" alt="Ludmercentre logo"></a>
+          <a href="https://mcgill.ca"><img src="images/logo-mcgill.png" alt="McGill logo"></a>
+          <a href="https://www.mcgill.ca/neuro/"><img src="images/logo-neuro.jpg" alt="the Montreal Neurological Institute-Hospital logo"></a>
+        </div>
+        <div class="col-2 font-white text-center">
+          <h3>Contact Us</h3>
+          General Inquiries: <a href="mailto:support@neurohub.ca" class="font-white">support@neurohub.ca</a>
+        </div>
+        <div class="col-4 font-white text-center">
+          <a href="https://github.com/neurohub" class="font-white">
+            <img src="images/logo-github.png" class="github-icon center">
+            <h3>Find us on GitHub</h3>            
+          </a>
+        </div>
+        <div class="col-4 font-white text-center">
+          <a href="https://twitter.com/HbhlNeuroHub" class="font-white">
+            <img src="images/logo-twitter.png" class="github-icon center">
+            <h3>Follow us on Twitter</h3>            
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+<script>
+  $(function(){
+    $("#showmenu").click(function(e){
+    $("#menu").slideUp();
+      if ($(this).next().is(":hidden")){
+      $(this).next().slideDown();
+      }
+    });
+  });
+</script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({duration: 800, offset: 50,});
+  </script>
+</body></html>
